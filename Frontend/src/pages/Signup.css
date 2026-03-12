@@ -1,0 +1,62 @@
+.signup-container{
+  display:flex;
+  height:80vh;
+}
+
+.signup-image{
+  flex:1;
+}
+
+.signup-image img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.signup-form{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  padding:60px;
+}
+
+.signup-form h2{
+  font-size:28px;
+  margin-bottom:10px;
+}
+
+.signup-form p{
+  margin-bottom:20px;
+}
+
+.signup-form input{
+  padding:12px;
+  margin-bottom:15px;
+  border:1px solid #ddd;
+}
+
+.create-btn{
+  padding:12px;
+  background:#db4444;
+  color:white;
+  border:none;
+  cursor:pointer;
+  margin-bottom:10px;
+}
+
+.google-btn{
+  padding:12px;
+  border:1px solid #ddd;
+  background:white;
+  cursor:pointer;
+}
+
+.login-text{
+  margin-top:15px;
+}
+
+.login-text span{
+  color:#db4444;
+  cursor:pointer;
+}
